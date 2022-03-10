@@ -3,3 +3,41 @@
     padding: 0%;
     margin: 0%;
 }
+body{
+    height: 100%;
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+p{
+    text-align: center;
+    margin: 0.2rem;
+}
+.formContainer{
+    margin-top: 4%;
+}
+.formContainer form{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+.label{
+    font-size: large;
+}
+.input{
+    width: 100%;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn{
+    padding: 0.5rem;
+    margin: 5%;
+}
+.input:focus{
+    border: rgb(49, 49, 248) solid;
+}
