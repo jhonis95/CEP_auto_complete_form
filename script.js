@@ -9,7 +9,6 @@ const xmlObject= new XMLHttpRequest()
 
 inputCep.addEventListener('input',(e)=>{
     let cep=e.target.value
-    console.log(`cep.lenght:${e.target.value.length}`)
     if(e.target.value.length===8){
         xmlObject.open("GET",`https://viacep.com.br/ws/${cep}/json`)
         xmlObject.send()
